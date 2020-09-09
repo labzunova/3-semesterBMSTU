@@ -1,0 +1,56 @@
+body{
+	background-color: #cccccc;
+}
+
+div{
+	font-size: 10px;	
+	vertical-align: top;
+}
+
+.textProp{
+	height: 40px;
+	margin-top: 2px;
+	display: inline-block;
+	background-color: #fff;
+	text-align: center;
+}
+
+.empty{
+	width: 400px;
+}
+
+.full{
+	width: 803px;
+}
+
+.green{
+	width: 400px;
+	background-color: #17bba0;
+	color: #fff;
+}
+
+.blue{
+	width: 400px;
+	height: 40px;
+	background-color: #3599d5;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+
+.mondayCol{
+	float: left;
+	text-align: center;
+	height: 306px;
+	width: 50px;
+	margin-right: 2px;
+	background-color: #fff;
+}
+
+.inline{
+	width: 400px;
+}
+
+.time{
+	width: 150px;
+}
