@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Laboratory work 4</title>
+
+	<script type="text/javascript">
+		function elementsOutput(Body, under){
+			for(var x = Body.firstChild; x != null; x = x.nextSibling)
+			{
+				//var ind = (x.innerHTML+'').indexOf('\n');
+				//var string = (x.innerHTML+'').slice(0, ind);
+				//if (string != 'undefine') console.log(string);
+				var s = x.outerHTML+'';
+
+				//if ((s != 'undefined')&&(a =s= -1)) console.log(s);
+				if ((s != 'undefined')&&((under.indexOf(s)==-1)||(under=='start'))) console.log(s);
+
+				//if (((x.outerHTML+'') != 'undefined')&&((Body.outerHTML+'').indexOf((x.outerHTML+'')==-1))) console.log(x.outerHTML+'');
+
+				//console.log(x);
+
+				//console.log(typeof(x));
+				if (x.firstChild != null){
+					var y = x;
+					elementsOutput(y, x.outerHTML+'');
+				};
+				
+			}
+
+		}
+	</script>
+
+</head>
+
+<body>	
+		<div id="mainText"> 
+			<h2 class="small">Языки Интернет-программирования</h2>
+			<h1 class="lection1"><strong>Лекция 1.</strong> SGML, HTML, CSS...</h1>
+			<div class="bmstuImg">
+				<img src="bmstu.png" width='200' height='224' alt='bmstu' />
+			</div>
+
+			<ul>
+				<li class="point"><strong>Протоколы</strong></li>
+				<li class="point"><strong>Архитектура WWW</strong></li>
+				<li class="point"><strong>Языки разметки</strong></li>
+				<li class="point"><strong>Таблицы стилей CSS</strong></li>
+			</ul>
+
+			<h3 class="name">МГТУ им. Н.Э. Баумана, доц. каф. ИУ-6,<br/>к.т.н. Самарев Роман Станиславович</h3>
+			<h4 class="date"><em>01.09.2020</em></h4>
+		</div>
+
+		<button onclick="elementsOutput(mainText,'start')">Output</button>
+</body>
+</html>
