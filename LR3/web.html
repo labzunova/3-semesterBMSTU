@@ -1,33 +1,7 @@
 <html>
 <head>
 	<title>Laboratory work 4</title>
-
-	<script type="text/javascript">
-		function elementsOutput(Body, under){
-			for(var x = Body.firstChild; x != null; x = x.nextSibling)
-			{
-				//var ind = (x.innerHTML+'').indexOf('\n');
-				//var string = (x.innerHTML+'').slice(0, ind);
-				//if (string != 'undefine') console.log(string);
-				var s = x.outerHTML+'';
-
-				//if ((s != 'undefined')&&(a =s= -1)) console.log(s);
-				if ((s != 'undefined')&&((under.indexOf(s)==-1)||(under=='start'))) console.log(s);
-
-				//if (((x.outerHTML+'') != 'undefined')&&((Body.outerHTML+'').indexOf((x.outerHTML+'')==-1))) console.log(x.outerHTML+'');
-
-				//console.log(x);
-
-				//console.log(typeof(x));
-				if (x.firstChild != null){
-					var y = x;
-					elementsOutput(y, x.outerHTML+'');
-				};
-				
-			}
-
-		}
-	</script>
+	<script src='script.js'></script>
 
 </head>
 
@@ -51,5 +25,9 @@
 		</div>
 
 		<button onclick="elementsOutput(mainText,'start')">Output</button>
+
+		<div id='fillingDiv'>
+		</div>
+
 </body>
 </html>
