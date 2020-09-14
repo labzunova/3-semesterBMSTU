@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>Laboratory work 4</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src='script.js'></script>
+	<link href="http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='main'>
+	<hr><h1 class='title'><strong>Магазин Олегов</strong></h1><hr>
+
+		<div class='row'>
+		<div class='col-7'>
+		<table>
+			<tr class = 'tableTitle'>
+				<th class='width150'>Фото</th>
+				<th class='width300'>Наименование</th>
+				<th class='width150'>Цена</th>
+				<th class='width150'>Добавить в корзину</th>
+			</tr>
+
+			<tr>
+				<th><img class='image' src="1st.jpg"></th>
+				<th>Плюшевый Олег</th>
+				<th class='price'>1999</th>
+				<th class='plus' onclick="add('Плюшевый Олег','1999','1st.jpg')"><img src="plus.png" alt="+"></th>
+			</tr>
+
+			<tr>
+				<th><img class='image' src="1st.jpg"></th>
+				<th>Плюшевый Олег по цене двух</th>
+				<th class='price'>3998</th>
+				<th class='plus' onclick="add('Плюшевый Олег по цене двух','3998','1st.jpg')"><img src="plus.png" alt="+"></th>
+			</tr>
+			
+			<tr>
+				<th><img class='image' src="spider.jpg"></th>
+				<th>Плюшевый Олег-паук</th>
+				<th class='price'>2999</th>
+				<th class='plus' onclick="add('Плюшевый Олег-паук','2999','spider.jpg')"><img src="plus.png" alt="+"></th>
+			</tr>
+
+			<tr>
+				<th><img class='image' src="microOleg.jpg"></th>
+				<th>МикроОлег</th>
+				<th class='price'>1099</th>
+				<th class='plus' onclick="add('МикроОлег','1099','microOleg.jpg')"><img src="plus.png" alt="+"></th>
+			</tr>
+		</table>
+		<hr width='700px' align='left'>
+
+		<div class='adding'>
+			<h3><strong>Добавить текстом:</strong></h3>
+			<table>
+				<tr> <th>Наименование</th> <th><input type='text' id='name'></th> </tr>
+				<tr> <th>Цена</th> <th><input type='text' id='price'></th> </tr>
+			</table>
+
+			<input class='add' type="submit" value="Добавить" onclick='addByYourself()' />
+		</div>
+		</div>
+
+		<div class='col-5'>
+			<h2><strong>Корзина</strong></h2>
+
+			<table id='cart'>
+				<tr class = 'tableTitle'>
+					<th class='width150'>Фото</th>
+					<th class='width300'>Наименование</th>
+					<th class='width150'>Цена</th>
+				</tr>
+			</table>
+			<hr>
+
+			<h4 id='cartIsEmpty'>Корзина пуста...</h4>
+
+			<input id='count' type="submit" value="Посчитать сумму" onclick='count()' />
+
+			<h3 class='h3' id='sum'>Сумма: 0</h3>
+			<input id='recount' type="submit" value="Пересчитать" onclick='count()' />
+
+		</div>
+		</div>
+
+	</div>
+</body>
+</html>
