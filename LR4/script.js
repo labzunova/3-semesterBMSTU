@@ -1,6 +1,3 @@
-/*
-Сделать кнопку расчёта стоимости заказа.
-*/
 var d = document;
 
 function add(name,price,image){
@@ -47,23 +44,19 @@ function addByYourself() {
     			priceTD.innerHTML = price;
 
    				d.getElementById('cartIsEmpty').style.display = 'none';
- 				d.getElementById('sum').style.visibility = 'visible';
- 				d.getElementById('recount').style.visibility = 'visible';
+                d.getElementById('count').style.visibility = 'visible';
 			} else alert('Цена должна быть числом!');  
 }
 
 function count() {
 	var sum = 0;
-	var table = d.getElementById('cart').getElementsByTagName('TBODY')[0];
+	var table = d.getElementById('cart');
 
-
-			// TODO
-	/*for(var i = 0; i < table.cols.length; i++) {
-		sum *= parseFloat(table.rows[i].col[2]);
+    for (var i = 1; i < table.rows.length; i++) {
+      sum += parseFloat(table.rows[i].cells[2].innerHTML);
 	} 
-
-	d.getElementById('sum').value = sum; */ 
-
+	d.getElementById('sum').innerHTML = 'Сумма: '+ sum; 
+    
 	var elem = document.getElementById("count");
 	elem.parentNode.removeChild(elem);
  	d.getElementById('sum').style.visibility = 'visible';
