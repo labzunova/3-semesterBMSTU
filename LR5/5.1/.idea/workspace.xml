@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbcf9298-6b77-4772-b01e-f31620a3a52f" name="Default Changelist" comment="" />
+    <list default="true" id="9665e9c8-361f-4192-a085-0acb09d8d56b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/LR5.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/Main.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/Test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/client.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class" />
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1i9Q9q97vxkBrQKUpyCxiSba572" />
+  <component name="ProjectId" id="1i8acp7op8pyeeJAlbIHvAGgBkY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,19 +39,38 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="LR5.2" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Main.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbcf9298-6b77-4772-b01e-f31620a3a52f" name="Default Changelist" comment="" />
-      <created>1601317179231</created>
+      <changelist id="9665e9c8-361f-4192-a085-0acb09d8d56b" name="Default Changelist" comment="" />
+      <created>1601291754632</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601317179231</updated>
-      <workItem from="1601317180435" duration="6305000" />
-      <workItem from="1601323987135" duration="1415000" />
-      <workItem from="1601391961035" duration="616000" />
-      <workItem from="1601411565831" duration="1966000" />
-      <workItem from="1601415526977" duration="2840000" />
+      <updated>1601291754632</updated>
+      <workItem from="1601291755883" duration="7510000" />
+      <workItem from="1601455174072" duration="3928000" />
     </task>
     <servers />
   </component>
@@ -42,13 +78,57 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601323159237">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601291840465">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601323159237" />
-    <state x="461" y="164" width="998" height="710" key="SettingsEditor" timestamp="1601326581956">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601291840465" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601454727425">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="461" y="164" width="998" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601326581956" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601454727425" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601470783738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1601324748686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601324748686" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601325189030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601325189030" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LR5_2@Main.rcov" NAME="Main Coverage Results" MODIFIED="1601296734306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@Main.rcov" NAME="Main Coverage Results" MODIFIED="1601470608018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
   </component>
 </project>

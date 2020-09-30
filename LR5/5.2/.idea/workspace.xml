@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d43f4f7-23a6-437a-9242-4f7d60561c80" name="Default Changelist" comment="" />
+    <list default="true" id="2723e4dc-b76c-44f1-97c5-402a6455804a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decoder.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/LR5.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/Main.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/Test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.2/client.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/LR5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1iCbVVRZfdgszXdrgazcZYDvPGu" />
+  <component name="ProjectId" id="1iDv53RmD9xZmYgYgpMG9Jrq65K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.1" />
   </component>
   <component name="RunManager">
-    <configuration name="client" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="Client" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="5.2" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -39,13 +58,13 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/client.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Client.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.client" />
+        <item itemvalue="Ruby.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -53,12 +72,12 @@
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d43f4f7-23a6-437a-9242-4f7d60561c80" name="Default Changelist" comment="" />
-      <created>1601414544261</created>
+      <changelist id="2723e4dc-b76c-44f1-97c5-402a6455804a" name="Default Changelist" comment="" />
+      <created>1601454792540</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601414544261</updated>
-      <workItem from="1601414545327" duration="6258000" />
+      <updated>1601454792540</updated>
+      <workItem from="1601454794608" duration="3331000" />
     </task>
     <servers />
   </component>
@@ -66,28 +85,32 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="282" key="FileChooserDialogImpl" timestamp="1601415524282">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601455170476">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601415524282" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601420620893">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601455170476" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601459943373">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601420620893" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601420620893">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601459943373">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601420620893" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601420620893">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601459943373">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601420620893" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601420620893">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601459943373">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601420620893" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601454945684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601454945684" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/5_2@client.rcov" NAME="client Coverage Results" MODIFIED="1601420620885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
+    <SUITE FILE_PATH="coverage/5_2@Client.rcov" NAME="Client Coverage Results" MODIFIED="1601457092867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
   </component>
 </project>
