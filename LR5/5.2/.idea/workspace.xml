@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2723e4dc-b76c-44f1-97c5-402a6455804a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1/Main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/Main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1/MathFunc.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../5.1/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/Test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.1/math_func.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/math_func.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/5.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/5.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/decoder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +35,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Test">
+  <component name="RunManager">
     <configuration name="client" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="5.2" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -50,34 +52,8 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="5.2" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Test" />
         <item itemvalue="Ruby.client" />
       </list>
     </recent_temporary>
@@ -95,7 +71,6 @@
       <workItem from="1601474243471" duration="31000" />
       <workItem from="1601475826129" duration="1842000" />
       <workItem from="1601478716235" duration="7862000" />
-      <workItem from="1601537310153" duration="2645000" />
     </task>
     <servers />
   </component>
@@ -103,30 +78,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601538296587">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1601474270684">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601538296587" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601455170476" />
     <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601474270684" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601539336004">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601502247201">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601539336004" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
     <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601539336004">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601502247201">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601539336004" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
     <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601539336004">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601502247201">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601539336004" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
     <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601539336004">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601502247201">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601539336004" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601454945684">
       <screen x="0" y="0" width="1366" height="728" />
@@ -134,8 +109,7 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601454945684" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/5_2@client.rcov" NAME="client Coverage Results" MODIFIED="1601538354884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
-    <SUITE FILE_PATH="coverage/5_2@Test.rcov" NAME="Test Coverage Results" MODIFIED="1601539335988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
     <SUITE FILE_PATH="coverage/5_2@Client.rcov" NAME="Client Coverage Results" MODIFIED="1601457092867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
+    <SUITE FILE_PATH="coverage/5_2@client.rcov" NAME="client Coverage Results" MODIFIED="1601502247194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
   </component>
 </project>

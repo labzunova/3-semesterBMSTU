@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Test">
@@ -90,8 +90,6 @@
       <workItem from="1601455174072" duration="3928000" />
       <workItem from="1601474275330" duration="2144000" />
       <workItem from="1601478671607" duration="1939000" />
-      <workItem from="1601537878933" duration="386000" />
-      <workItem from="1601538300236" duration="1201000" />
     </task>
     <servers />
   </component>
@@ -108,25 +106,25 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601454727425" />
     <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601478713116" />
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1601538268545">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom" timestamp="1601475603586">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
     <state width="1340" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601475603586" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1601538268545">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center" timestamp="1601475603586">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
     <state width="1340" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601475603586" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1601538268545">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left" timestamp="1601475603586">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
     <state width="1340" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601475603586" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1601538268545">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right" timestamp="1601475603586">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601470783738" />
     <state width="1340" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601475603586" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1601475603586">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -158,9 +156,8 @@
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601325189030" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/5_1@Test.rcov" NAME="Test Coverage Results" MODIFIED="1601538264467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
-    <SUITE FILE_PATH="coverage/LR5_2@Main.rcov" NAME="Main Coverage Results" MODIFIED="1601296734306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
-    <SUITE FILE_PATH="coverage/5_1@main.rcov" NAME="main Coverage Results" MODIFIED="1601538094223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
     <SUITE FILE_PATH="coverage/5_1@Main.rcov" NAME="main Coverage Results" MODIFIED="1601475452526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@Test.rcov" NAME="Test Coverage Results" MODIFIED="1601475603351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/LR5_2@Main.rcov" NAME="Main Coverage Results" MODIFIED="1601296734306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
   </component>
 </project>
