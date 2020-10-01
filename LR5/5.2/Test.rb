@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'minitest/autorun'
 require_relative 'decoder'
 
 # decode logic testing
@@ -12,7 +13,7 @@ class Test < Minitest::Test
     initial_string = []
     final_string = []
     20.times do |i|
-      symbol_code = rnd.rand(65...122)
+      symbol_code = rnd.rand(97...122)
       initial_string[i] = symbol_code.chr
       final_string[i] = case symbol_code[i]
                         when ' '
@@ -24,7 +25,7 @@ class Test < Minitest::Test
                         end
     end
     decoder = Decoder.new
-    [decoder.decode(initial_string), final_string]
+    [decoder.decode(initial_string.join), final_string.join]
   end
 
   def test_decoding
