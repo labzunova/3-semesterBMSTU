@@ -11,7 +11,7 @@ class Client
   puts '---'
   puts 'final sequence:  '
   strings = sequence.split(10.chr)
-  (0..strings.length - 1).each do |i|
-    puts decoder.decode(strings[i])
+  (0..strings.length - 1).each do |iteration|
+    puts decoder.decode(strings[iteration])
   end
 end

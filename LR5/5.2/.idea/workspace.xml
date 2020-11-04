@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2723e4dc-b76c-44f1-97c5-402a6455804a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/integral.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/integral_enum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/main.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR5.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../5.1/Main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/Main.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.1/MathFunc.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.1/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/Test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1/math_func.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../5.1/math_func.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/5.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/5.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/client.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/decoder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decoder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Decoder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR5.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../LR5.doc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +78,8 @@
       <workItem from="1601474243471" duration="31000" />
       <workItem from="1601475826129" duration="1842000" />
       <workItem from="1601478716235" duration="7862000" />
+      <workItem from="1601590211894" duration="803000" />
+      <workItem from="1604515953658" duration="7000" />
     </task>
     <servers />
   </component>
@@ -78,31 +87,31 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1601474270684">
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1601590425222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601455170476" />
-    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601474270684" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601502247201">
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601590425222" />
+    <state width="1340" height="492" key="GridCell.Tab.0.bottom" timestamp="1601589757689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601502247201">
+    <state width="1340" height="492" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601589757689" />
+    <state width="1340" height="492" key="GridCell.Tab.0.center" timestamp="1601589757689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601502247201">
+    <state width="1340" height="492" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601589757689" />
+    <state width="1340" height="492" key="GridCell.Tab.0.left" timestamp="1601589757689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601502247201">
+    <state width="1340" height="492" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601589757689" />
+    <state width="1340" height="492" key="GridCell.Tab.0.right" timestamp="1601589757689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601459943373" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601502247201" />
+    <state width="1340" height="492" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601589757689" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601454945684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,6 +119,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/5_2@Client.rcov" NAME="Client Coverage Results" MODIFIED="1601457092867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
-    <SUITE FILE_PATH="coverage/5_2@client.rcov" NAME="client Coverage Results" MODIFIED="1601502247194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
+    <SUITE FILE_PATH="coverage/5_2@test.rcov" NAME="test Coverage Results" MODIFIED="1601583299353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
+    <SUITE FILE_PATH="coverage/5_2@client.rcov" NAME="client Coverage Results" MODIFIED="1601584366679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
+    <SUITE FILE_PATH="coverage/5_2@Test.rcov" NAME="Test Coverage Results" MODIFIED="1601559199793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="5.2" />
   </component>
 </project>
