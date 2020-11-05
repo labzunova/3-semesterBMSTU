@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9665e9c8-361f-4192-a085-0acb09d8d56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/.idea/6.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/integral.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/integral_enum.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/main.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.1/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.2/.idea/6.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LR6/6.2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LR5.doc" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.3/extrems.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/6.3/main.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LR6/6.3" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager" selected="Ruby.test">
@@ -189,30 +180,30 @@
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601291840465" />
     <state x="193" y="27" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601583976109" />
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1601583274003">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604561029793">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601454727425" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604561029793" />
     <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601583274003" />
-    <state width="1248" height="401" key="GridCell.Tab.0.bottom" timestamp="1604517880891">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1604561153987">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604561153987" />
     <state width="1248" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604517880891" />
-    <state width="1248" height="401" key="GridCell.Tab.0.center" timestamp="1604517880891">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1604561153987">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604561153987" />
     <state width="1248" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604517880891" />
-    <state width="1248" height="401" key="GridCell.Tab.0.left" timestamp="1604517880891">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1604561153987">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604561153987" />
     <state width="1248" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604517880891" />
-    <state width="1248" height="401" key="GridCell.Tab.0.right" timestamp="1604517880891">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1604561153987">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601538268545" />
+    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604561153987" />
     <state width="1248" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604517880891" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1601475603586">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -249,11 +240,11 @@
     <state x="383" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601562467566" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/5_1@Main.rcov" NAME="main Coverage Results" MODIFIED="1601475452526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
-    <SUITE FILE_PATH="coverage/5_1@Test.rcov" NAME="Test Coverage Results" MODIFIED="1601538264467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
-    <SUITE FILE_PATH="coverage/5_1@test.rcov" NAME="test Coverage Results" MODIFIED="1604517876895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@Test.rcov" NAME="Test Coverage Results" MODIFIED="1603806184307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
     <SUITE FILE_PATH="coverage/LR5_2@Main.rcov" NAME="Main Coverage Results" MODIFIED="1601296734306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
-    <SUITE FILE_PATH="coverage/5_1@main.rcov" NAME="main Coverage Results" MODIFIED="1601583095714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@main.rcov" NAME="main Coverage Results" MODIFIED="1601971919430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
     <SUITE FILE_PATH="coverage/5_1@.rcov" NAME=" Coverage Results" MODIFIED="1601562793142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@Main.rcov" NAME="main Coverage Results" MODIFIED="1601475452526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
+    <SUITE FILE_PATH="coverage/5_1@test.rcov" NAME="test Coverage Results" MODIFIED="1604561010998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LR5.2" />
   </component>
 </project>
