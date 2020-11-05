@@ -2,34 +2,28 @@
 
 # minmax class
 class Extrems
-  def minmax_func(a,b,func)
+  # :reek:TooManyStatements
+  # :reek:UtilityFunction
+  def minmax_func(left, right, func)
     min = func.call(0)
-    max = func.call(0)
-    a.step(b,0.01) do |i|
-        if func.call(i) < min
-          min = func.call(i)
-        end
-        if func.call(i) > max
-          max = func.call(i)
-        end
+    max = min
+    left.step(right, 0.01) do |arg|
+      value = func.call(arg)
+      min = value if value < min
+      max = value if value > max
     end
-    puts "min", min
-    puts "max", max
+    [min, max]
   end
 
-  def minmax_block(a,b)
+  # :reek:TooManyStatements
+  # :reek:UtilityFunction
+  def minmax_block(left, right)
     min = yield(0)
-    max = yield(0)
-    a.step(b,0.01) do |i|
-        if yield(i) < min
-          min = yield(i)
-        end
-        if yield(i) > max
-          max = yield(i)
-        end
+    max = min
+    left.step(right, 0.01) do |arg|
+      min = yield(arg) if yield(arg) < min
+      max = yield(arg) if yield(arg) > max
     end
-    puts "min", min
-    puts "max", max
+    [min, max]
   end
 end
-

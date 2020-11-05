@@ -8,11 +8,10 @@ class TestMath < Minitest::Test
   def setup; end
 
   def test_math
-    precision1 = 0.001.to_f
-    precision2 = 0.0001.to_f
-    min_precision = count(precision1)
-    max_precision = count(precision2)
-    assert(min_precision - 0.001 < 0.3862943611199) && (min_precision + 0.001 > 0.3862943611199)
-    assert(max_precision - 0.0001 < 0.3862943611199) && (max_precision + 0.0001 > 0.3862943611199)
+    truth = 0.3862943611199
+    min_precision = count(0.001.to_f)
+    max_precision = count(0.0001.to_f)
+    assert(min_precision - 0.001 < truth) && (min_precision + 0.001 > truth)
+    assert(max_precision - 0.0001 < truth) && (max_precision + 0.0001 > truth)
   end
 end

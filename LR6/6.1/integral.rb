@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# :reek:UtilityFunction
 # integral counting
 class Integral
   def count(precision)

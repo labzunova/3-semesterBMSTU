@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# :reek:TooManyStatements
+# :reek:UncommunicativeVariableName
+# :reek:FeatureEnvy
 # class integral
 class Integral
   include Enumerable
@@ -15,6 +18,7 @@ class Integral
   end
 end
 
+# :reek:UtilityFunction
 def count(precision)
   real_value = 0.3862943611199
   Integral.new.find { |sum| (sum - real_value).abs < precision }
