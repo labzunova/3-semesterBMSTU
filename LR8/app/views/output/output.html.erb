@@ -1,0 +1,25 @@
+<h2>Output</h2>
+<hr>
+  <%= @output %>
+  <hr>
+
+<% if @subsequences.is_a?(String) %>
+  <%= @subsequences %>
+<% end %>
+
+<% if @error == 0 %>
+  <table>
+    <% @subsequences.each_with_index do |sequence, index| %>
+      <tr>
+        <td><%= index %>:</td>
+        <td><%= sequence %></td>
+      </tr>
+    <% end %>
+  </table>
+
+  <hr>
+
+  <%= @max %>
+<% end %>
+
+<%= link_to 'Назад', :back %>
