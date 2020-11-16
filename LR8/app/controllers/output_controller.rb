@@ -1,34 +1,36 @@
+# frozen_string_literal: true
+
+# output
 class OutputController < ApplicationController
   def output
     sequence = params[:sequence]
     @error = 1
     if sequence == ''
-      @output = "you didn't write anything:("
-    elsif sequence.to_i == 0
-      @output = "please, enter a number"
+      @output = 'you did not write anything:('
+    elsif sequence.to_i.zero?
+      @output = 'please, enter a number'
     else
-      @output = "Your initial sequence:" + sequence
+      @output = "Your initial sequence: #{sequence}"
       @error = 0
-      res = Find(sequence)
-      if res[0].length == 0
-        @subsequences = "There are no rising subsequences"
+      res = find(sequence)
+      if res[0].length.zero?
+        @subsequences = 'There are no rising subsequences'
         @error = 1
       else
         @subsequences = res[0]
-        @max = "maximum length rising subsequence: " + res[1]
+        @max = "maximum length rising subsequence: #{res[1]}"
       end
     end
   end
 
-  def Find(sequence)
-    rising_subsequences = Array.new()
-    #sequence = sequence.split(//).map(&:to_i)
+  def find(sequence)
+    rising_subsequences = []
     subsequence = sequence[0]
     max = ''
     count = 1
     n = 0
     (1..sequence.length).each do |i|
-      if sequence[i].to_i > sequence[i-1].to_i
+      if sequence[i].to_i > sequence[i - 1].to_i
         count += 1
         subsequence += sequence[i]
       else

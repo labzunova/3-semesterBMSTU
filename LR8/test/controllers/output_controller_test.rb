@@ -23,6 +23,6 @@ class OutputControllerTest < ActionDispatch::IntegrationTest
 
   test "should get an error for empty input" do
     get '/output', params: {sequence: ""}
-    assert_equal assigns[:output], "you didn't write anything:("
+    assert_equal assigns[:output], "you did not write anything:("
   end
 end
