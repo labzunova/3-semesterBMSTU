@@ -2702,3 +2702,189 @@ Processing by IoController#output as JSON
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 421)
 
 
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:42:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6503)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:42:44 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 423)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:46:30 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6501)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:46:32 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 417)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:49:32 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/usr/lib/ruby/2.7.0/bundler/resolver.rb:290:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'rails-controller-testing' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `each'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `verify_gemfile_dependencies_are_found!'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:49:in `start'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:22:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:258:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:170:in `specs'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:237:in `specs_for'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:226:in `requested_specs'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:101:in `block in definition_method'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:20:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler.rb:149:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 171ms (Views: 170.1ms | ActiveRecord: 0.0ms | Allocations: 7594)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:49:33 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 425)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:51:01 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/usr/lib/ruby/2.7.0/bundler/resolver.rb:290:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'rails-controller-testing' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `each'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `verify_gemfile_dependencies_are_found!'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:49:in `start'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:22:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:258:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:170:in `specs'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:237:in `specs_for'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:226:in `requested_specs'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:101:in `block in definition_method'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:20:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler.rb:149:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 166ms (Views: 164.1ms | ActiveRecord: 0.0ms | Allocations: 7585)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:51:02 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 426)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:52:36 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/usr/lib/ruby/2.7.0/bundler/resolver.rb:290:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'rails-controller-testing' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `each'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `verify_gemfile_dependencies_are_found!'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:49:in `start'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:22:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:258:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:170:in `specs'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:237:in `specs_for'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:226:in `requested_specs'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:101:in `block in definition_method'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:20:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler.rb:149:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 168ms (Views: 166.6ms | ActiveRecord: 0.0ms | Allocations: 7593)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:52:38 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 419)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:52:43 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 415)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:54:51 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 110)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/usr/lib/ruby/2.7.0/bundler/resolver.rb:290:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'rails-controller-testing' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `each'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:258:in `verify_gemfile_dependencies_are_found!'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:49:in `start'
+	from /usr/lib/ruby/2.7.0/bundler/resolver.rb:22:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:258:in `resolve'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:170:in `specs'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:237:in `specs_for'
+	from /usr/lib/ruby/2.7.0/bundler/definition.rb:226:in `requested_specs'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:101:in `block in definition_method'
+	from /usr/lib/ruby/2.7.0/bundler/runtime.rb:20:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler.rb:149:in `setup'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /usr/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /usr/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /usr/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 165ms (Views: 165.0ms | ActiveRecord: 0.0ms | Allocations: 7594)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:54:53 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 418)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:58:45 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 12369)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:58:47 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 444)
+
+

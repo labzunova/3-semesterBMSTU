@@ -13,7 +13,8 @@ function show_result(data){
         insertToHTML += data.value;
     }
     insertToHTML += "</table>";
-    result.innerHTML = "<hr/>Result is: " + data.value() + "<hr/><p>"+Date()+"</p>";
+    console.log("hello")
+    result.innerHTML = "<hr/>Result is: " + data.value + "<hr/><p>"+Date()+"</p>";
 }
 
 handleAjaxSuccess = function (event) {
