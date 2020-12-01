@@ -8,9 +8,15 @@ require_relative 'files'
 class Test < Minitest::Test
   def setup; end
 
-  def files_check
-    file_to_file('test_file.txt')
-    text = IO.read('G.txt')
-    assert_equal(text, 'dlrow ollehdlrow ollehdlrow olleh')
+  ALPHABET = ('a'..'z').to_a
+  def test_first
+      @arr_result = []
+      File.open('F.txt', 'w') do |file|
+        rand(5..10).times do |_i|
+          word = ALPHABET.sample(10).join
+          file.puts(word)
+          @arr_result << word.reverse
+        end
+      end
   end
 end

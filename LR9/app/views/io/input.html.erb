@@ -1,0 +1,10 @@
+<h2>Input</h2>
+<hr>
+<%= form_tag("output.json", :method => "get", remote: true, id: 'input_form') do %>
+    <%= text_field_tag(:sequence) %>
+    <%= submit_tag("Определить наиболее длинную монотонно возрастающую последовательность") %>
+<% end %>
+
+<div id="result">
+  <!-- поле для асинхронного вывода результатов вычислений -->
+</div>

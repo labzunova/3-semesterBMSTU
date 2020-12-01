@@ -8,19 +8,19 @@ require_relative 'sphere'
 class TestMath < Minitest::Test
   def setup; end
 
-  def inheritance_check
+  def test_first
     sphere = Sphere.new(1, -1, 2)
     assert(sphere.is_a?(Circle))
   end
 
-  def classes_check
+  def test_second
     circle = Circle.new(2, 6, 3)
     sphere = Sphere.new(1, -1, 2)
     assert_equal(circle.square, 28.274333882308138)
     assert_equal(sphere.volume, 33.510321638291124)
   end
 
-  def getters_check
+  def test_third
     sphere = Sphere.new(1, -1, 2)
     assert_equal(sphere.x_getter, 1)
     assert_equal(sphere.y_getter, -1)

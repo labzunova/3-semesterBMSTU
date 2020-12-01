@@ -20,25 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e48bd9-d246-4997-9461-3c5a860fe363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7.2/.idea/7.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7.2/circle.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7.2/sphere.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7.2/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LR6/LR5.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LR6/~$LR5.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../7.2/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../7.2/client.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../F.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../G.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../files.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_file.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/LR6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LR6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR6/6.3/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR6/6.3/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/F.txt" beforeDir="false" afterPath="$PROJECT_DIR$/F.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G.txt" beforeDir="false" afterPath="$PROJECT_DIR$/G.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7.2/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../7.2/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LR8/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../LR8/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +51,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LR6" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Ruby.client">
     <configuration name="client" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="7.1" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -79,9 +81,47 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="files" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="7.1" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/files.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="7.1" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.client" />
+        <item itemvalue="Ruby.files" />
+        <item itemvalue="Ruby.test" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +136,9 @@
       <updated>1604623631137</updated>
       <workItem from="1604623632269" duration="22000" />
       <workItem from="1604624347179" duration="344000" />
+      <workItem from="1604948864152" duration="16000" />
+      <workItem from="1605608899749" duration="846000" />
+      <workItem from="1606781184481" duration="3086000" />
     </task>
     <servers />
   </component>
@@ -119,24 +162,30 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604624381578" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1604624690589">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606781609441">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604624690589" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1604624690587">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606781609441" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1606803387746">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604624690587" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1604624690586">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606803387746" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1606803387744">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604624690586" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1604624690588">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606803387744" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1606803387744">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604624690588" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606803387744" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1606803387745">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606803387745" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/7_1@client.rcov" NAME="client Coverage Results" MODIFIED="1604624397578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="7.1" />
+    <SUITE FILE_PATH="coverage/7_1@files.rcov" NAME="files Coverage Results" MODIFIED="1606802965494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="7.1" />
+    <SUITE FILE_PATH="coverage/7_1@client.rcov" NAME="client Coverage Results" MODIFIED="1606802969980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="7.1" />
+    <SUITE FILE_PATH="coverage/7_1@test.rcov" NAME="test Coverage Results" MODIFIED="1606802924312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="7.1" />
   </component>
 </project>
