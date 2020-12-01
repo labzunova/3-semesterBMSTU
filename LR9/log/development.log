@@ -2702,3 +2702,119 @@ Processing by IoController#output as JSON
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 421)
 
 
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:48:00 +0300
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 3.5ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 99.6ms | ActiveRecord: 0.0ms | Allocations: 21790)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:49:30 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 112)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/penguin/cloned-repos/3-semesterBMSTU/LR9/public/packs
+[Webpacker] Hash: 869735db1d447dfa3b51
+Version: webpack 4.44.2
+Time: 2561ms
+Built at: 01.12.2020 17:49:34
+                                       Asset       Size         Chunks                         Chunk Names
+      js/application-8077cff5ffe2eafd49aa.js    127 KiB    application  [emitted] [immutable]  application
+  js/application-8077cff5ffe2eafd49aa.js.map    140 KiB    application  [emitted] [dev]        application
+    js/io_controller-2ce6ea889589b8f2b99c.js   6.36 KiB  io_controller  [emitted] [immutable]  io_controller
+js/io_controller-2ce6ea889589b8f2b99c.js.map   4.73 KiB  io_controller  [emitted] [dev]        io_controller
+                               manifest.json  717 bytes                 [emitted]              
+Entrypoint application = js/application-8077cff5ffe2eafd49aa.js js/application-8077cff5ffe2eafd49aa.js.map
+Entrypoint io_controller = js/io_controller-2ce6ea889589b8f2b99c.js js/io_controller-2ce6ea889589b8f2b99c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 778 bytes {application} [built]
+[./app/javascript/packs/io_controller.js] 2.45 KiB {io_controller} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4577ms (Views: 4576.6ms | ActiveRecord: 0.0ms | Allocations: 5301)
+
+
+Started GET "/output.json?sequence=ff&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:49:36 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"ff", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 429)
+
+
+Started GET "/output.json?sequence=ff&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:49:37 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"ff", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 414)
+
+
+Started GET "/output.json?sequence=333&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:49:40 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"333", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:53:40 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 111)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/penguin/cloned-repos/3-semesterBMSTU/LR9/public/packs
+[Webpacker] Hash: f9404d224d88d2b59129
+Version: webpack 4.44.2
+Time: 1198ms
+Built at: 01.12.2020 17:53:43
+                                       Asset       Size         Chunks                         Chunk Names
+      js/application-ba86ebad50bf87b052d7.js    127 KiB    application  [emitted] [immutable]  application
+  js/application-ba86ebad50bf87b052d7.js.map    140 KiB    application  [emitted] [dev]        application
+    js/io_controller-11cbbeeafc7f91fc46a9.js   6.36 KiB  io_controller  [emitted] [immutable]  io_controller
+js/io_controller-11cbbeeafc7f91fc46a9.js.map   4.73 KiB  io_controller  [emitted] [dev]        io_controller
+                               manifest.json  717 bytes                 [emitted]              
+Entrypoint application = js/application-ba86ebad50bf87b052d7.js js/application-ba86ebad50bf87b052d7.js.map
+Entrypoint io_controller = js/io_controller-11cbbeeafc7f91fc46a9.js js/io_controller-11cbbeeafc7f91fc46a9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 778 bytes {application} [built]
+[./app/javascript/packs/io_controller.js] 2.45 KiB {io_controller} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2964ms (Views: 2963.3ms | ActiveRecord: 0.0ms | Allocations: 5256)
+
+
+Started GET "/output.json?sequence=3%200%2015%208%2030%2044%20-5&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:53:47 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"3 0 15 8 30 44 -5", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 504)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-01 17:58:09 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 7907)
+
+
+Started GET "/output.json?sequence=3%200%2015%208%2030%2044%20-5&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:58:16 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"3 0 15 8 30 44 -5", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 527)
+
+
+Started GET "/output.json?sequence=3%200%2015%208%2030%2044%20-5&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:58:22 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"3 0 15 8 30 44 -5", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/output.json?sequence=3%200%2015%208%2030%2044%20-5&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-01 17:58:22 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"3 0 15 8 30 44 -5", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 508)
+
+
