@@ -1,0 +1,129 @@
+{
+  "id": "c5286abd-9079-4653-ae4a-9fc4cec65f81",
+  "version": "2.0",
+  "name": "LR10",
+  "url": "http://127.0.0.1:3001",
+  "tests": [{
+    "id": "89ef99fb-3ff6-4087-a928-6453d683ede1",
+    "name": "positive",
+    "commands": [{
+      "id": "b71306ff-5053-405e-8c7b-45bfa577e26d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f261a819-8d3b-4bbf-beea-73f3d2d993d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d654be0e-6468-4aeb-bbf9-56b98a3be548",
+      "comment": "",
+      "command": "click",
+      "target": "id=sequence",
+      "targets": [
+        ["id=sequence", "id"],
+        ["name=sequence", "name"],
+        ["css=#sequence", "css:finder"],
+        ["xpath=//input[@id='sequence']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad82a8d6-c6dc-4b41-94b0-2533709d4998",
+      "comment": "",
+      "command": "type",
+      "target": "id=sequence",
+      "targets": [
+        ["id=sequence", "id"],
+        ["name=sequence", "name"],
+        ["css=#sequence", "css:finder"],
+        ["xpath=//input[@id='sequence']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123451209346"
+    }, {
+      "id": "7f7412b1-98f9-4e44-b299-92292266603d",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1fd4f8-4aab-4132-95ae-ce10ef3fe111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-check:nth-child(3) > .form-check-label",
+      "targets": [
+        ["css=.form-check:nth-child(3) > .form-check-label", "css:finder"],
+        ["xpath=//fieldset/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Отображение сырого XML на стороне браузера')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ba1be2f-6f72-4271-a249-88748c302022",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4cead7-da8a-499b-96cf-32c577bc1228",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3)",
+      "targets": [
+        ["css=.form-group:nth-child(3)", "css:finder"],
+        ["xpath=//fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3494a11-5329-4ef1-9598-230c250ee883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-check:nth-child(4) > .form-check-label",
+      "targets": [
+        ["css=.form-check:nth-child(4) > .form-check-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Рендеринг на стороне браузера с помощью XSLT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b566a9-60d0-47e3-91fb-c4c354f844db",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e3089297-c44f-4831-95c9-45582c5a4165",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["89ef99fb-3ff6-4087-a928-6453d683ede1"]
+  }],
+  "urls": ["http://127.0.0.1:3001/"],
+  "plugins": []
+}

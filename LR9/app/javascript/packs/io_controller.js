@@ -1,20 +1,26 @@
-function show_result(data){
+function show_result(data)
+{
     var result = document.getElementById("result");
     insertToHTML = "<table>";
-    if (data.type == "Array") {
+    if ( data.type == "Array" )
+    {
         arr = data.value;
-        for (i = 0 ; i < arr.length - 1; i++) {
+        max = arr[0];
+        for ( i = 0 ; i < arr.length - 1; i++ )
+        {
             insertToHTML += "<tr><td>" + (i+1) + "</td><td>" +
-                arr[i] + "</td><td> NO </td></tr>";
+                arr[i] + "</td></tr>";
+            if (arr[i].length > max.length)  max = arr[i];
         }
         insertToHTML += "<tr><td>" + arr.length + "</td><td>" +
-            data.value[arr.length-1] + "</td><td> YES </td></tr>";
-    } else {
+            data.value[arr.length-1] + "</td></tr>";
+        insertToHTML = "<hr/>" + "maximum length rising subsequence: "+ max + insertToHTML;
+    } else
+    {
         insertToHTML += data.value;
     }
     insertToHTML += "</table>";
-    console.log("hello")
-    result.innerHTML = "<hr/>Result is: " + data.value + "<hr/><p>"+Date()+"</p>";
+    result.innerHTML = "<hr/>"+insertToHTML;
 }
 
 handleAjaxSuccess = function (event) {
