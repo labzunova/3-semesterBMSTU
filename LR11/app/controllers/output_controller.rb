@@ -12,8 +12,9 @@ class OutputController < ApplicationController
     else
       @output = "Your initial sequence: #{sequence}"
       @error = 0
-      if (res = Output.find_by_value(sequence))
-        @output = ActiveSupport::JSON.decode(res.result)
+      if (res = Output.find_by_input(sequence))
+        @subsequences = ActiveSupport::JSON.decode(res.result)
+        @max = ActiveSupport::JSON.decode(res.max)
       else
         res = find(sequence)
         if res[0].length.zero?
@@ -22,6 +23,8 @@ class OutputController < ApplicationController
         else
           @subsequences = res[0]
           @max = "maximum length rising subsequence: #{res[1]}"
+          res = Output.create input: sequence, result: ActiveSupport::JSON.encode(@result), max: ActiveSupport::JSON.encode(@max)
+          res.save
         end
       end
     end
@@ -57,4 +60,3 @@ class OutputController < ApplicationController
     end
   end
 end
-
