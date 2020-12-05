@@ -1,0 +1,6 @@
+<h2>Input</h2>
+<hr>
+<%= form_tag("/output", :method => "get") do %>
+    <%= text_field_tag(:sequence) %>
+    <%= submit_tag("Определить наиболее длинную монотонно возрастающую последовательность") %>
+<% end %>
