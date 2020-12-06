@@ -61,7 +61,6 @@ class OutputController < ApplicationController
     [rising_subsequences, max]
   end
 
-  # Просто рендерит содержимое БД в виде XML.
   def all
     respond_to do |format|
       format.xml { render xml: Output.all.to_xml }
