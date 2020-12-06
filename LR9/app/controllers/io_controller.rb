@@ -1,10 +1,16 @@
 # frozen_string_literal: true
 
 # output
+# :reek:TooManyStatements
+# :reek:UncommunicativeVariableName
+# :reek:UtilityFunction
+# :reek:IrresponsibleModule
+# :reek:FeatureEnvy
+# :reek:InstanceVariableAssumption
 class IoController < ApplicationController
   def output
     sequence = params[:sequence]
-    @result = "hello"
+    @result = 'hello'
 
     if sequence == ''
       @result = 'you did not write anything:('
@@ -12,18 +18,18 @@ class IoController < ApplicationController
       @result = 'please, enter a number'
     else
       res = find(sequence)
-      if res.length.zero?
-        @result = 'There are no rising subsequences'
-      else
-        @result = res
-      end
+      @result = if res.length.zero?
+                  'There are no rising subsequences'
+                else
+                  res
+                end
     end
 
     respond_to do |format|
       format.html
       format.json do
         render json:
-                   {type: @result.class.to_s, value: @result}
+                   { type: @result.class.to_s, value: @result }
       end
     end
   end
@@ -34,16 +40,17 @@ class IoController < ApplicationController
     count = 1
     n = 0
     (1..sequence.length).each do |i|
-      if sequence[i].to_i > sequence[i - 1].to_i
+      current_sequence = sequence[i]
+      if current_sequence.to_i > sequence[i - 1].to_i
         count += 1
-        subsequence += sequence[i]
+        subsequence += current_sequence
       else
         if count > 1
           rising_subsequences[n] = subsequence
           n += 1
         end
         count = 1
-        subsequence = sequence[i]
+        subsequence = current_sequence
       end
     end
     rising_subsequences

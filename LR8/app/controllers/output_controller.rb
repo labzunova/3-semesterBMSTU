@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 # output
+# :reek:UtilityFunction
+# :reek:TooManyStatements
+# :reek:UncommunicativeVariableName
+# :reek:IrresponsibleModule
 class OutputController < ApplicationController
   def output
     sequence = params[:sequence]
@@ -13,12 +17,14 @@ class OutputController < ApplicationController
       @output = "Your initial sequence: #{sequence}"
       @error = 0
       res = find(sequence)
-      if res[0].length.zero?
+      subsequences_ = res[0]
+      max = res[2]
+      if subsequences_.length.zero?
         @subsequences = 'There are no rising subsequences'
         @error = 1
       else
-        @subsequences = res[0]
-        @max = "maximum length rising subsequence: #{res[1]}"
+        @subsequences = subsequences_
+        @max = "maximum length rising subsequence: #{max}"
       end
     end
   end
@@ -30,9 +36,10 @@ class OutputController < ApplicationController
     count = 1
     n = 0
     (1..sequence.length).each do |i|
-      if sequence[i].to_i > sequence[i - 1].to_i
+      curr_seq = sequence[i]
+      if curr_seq.to_i > sequence[i - 1].to_i
         count += 1
-        subsequence += sequence[i]
+        subsequence += curr_seq
       else
         if count > 1
           rising_subsequences[n] = subsequence
@@ -40,7 +47,7 @@ class OutputController < ApplicationController
           n += 1
         end
         count = 1
-        subsequence = sequence[i]
+        subsequence = curr_seq
       end
     end
     [rising_subsequences, max]

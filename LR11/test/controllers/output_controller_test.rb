@@ -1,28 +1,39 @@
 require 'test_helper'
 
 class OutputControllerTest < ActionDispatch::IntegrationTest
-  test "get output" do
+  test 'get output' do
     get '/output'
     assert_response :success
   end
 
-  test "should get 123 for test with 12323180" do
-    get :'/output', params: {sequence: 12323180}
-    assert_equal assigns[:max], "maximum length rising subsequence: 123"
+  test 'test_return_json' do
+    get '/output', params: { sequence: 1245, format: 'json' }
+    assert_response :success
+    assert_includes @response.headers['Content-Type'], 'application/json'
   end
 
-  test "should get 'no rising' for test with 11111" do
-    get :'/output', params: {sequence: 111111}
-    assert_equal assigns[:subsequences], "There are no rising subsequences"
+  test 'should put result in db' do
+    before = Output.count
+    get '/output', params: { sequence: 1245 }
+    after = Output.count
+
+    assert_equal before + 1, after
   end
 
-  test "should get an error for NaN" do
-    get '/output', params: {sequence: "qwerty"}
-    assert_equal assigns[:output], "please, enter a number"
+  test 'test_different_response' do
+    get '/output', params: { sequence: 1245 }
+    first = assigns[:subsequences]
+    get '/output', params: { sequence: 8567 }
+    second = assigns[:subsequences]
+    refute_equal first, second
   end
 
-  test "should get an error for empty input" do
-    get '/output', params: {sequence: ""}
-    assert_equal assigns[:output], "you did not write anything:("
+  test 'test_different_response_json' do
+    get '/output', params: { sequence: 1245, format: 'json' }
+    first = JSON.parse @response.body
+
+    get '/output', params: { sequence: 245678, format: 'json' }
+    second = JSON.parse @response.body
+    refute_equal first, second
   end
 end

@@ -23,9 +23,17 @@ class OutputController < ApplicationController
         else
           @subsequences = res[0]
           @max = "maximum length rising subsequence: #{res[1]}"
-          res = Output.create input: sequence, result: ActiveSupport::JSON.encode(@result), max: ActiveSupport::JSON.encode(@max)
+          res = Output.create input: sequence, result: ActiveSupport::JSON.encode(@subsequences), max: ActiveSupport::JSON.encode(@max)
           res.save
         end
+      end
+    end
+
+    respond_to do |format|
+      format.html
+      format.json do
+        render json:
+                 { type_result: @subsequences.class.to_s, value_result: @subsequences }
       end
     end
   end
