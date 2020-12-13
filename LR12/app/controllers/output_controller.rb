@@ -18,7 +18,7 @@ class OutputController < ApplicationController
       @error = 0
       res = find(sequence)
       subsequences_ = res[0]
-      max = res[2]
+      max = res[1]
       if subsequences_.length.zero?
         @subsequences = 'There are no rising subsequences'
         @error = 1
