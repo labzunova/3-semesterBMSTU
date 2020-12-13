@@ -868,3 +868,1783 @@ Processing by InputController#index as HTML
 Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7895)
 
 
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 02:39:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1084)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 8225)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 02:39:21 +0300
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 8107)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-13 02:39:38 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"dru2YwcS6X68Ylaxr4tYqyPZGu5DqM+jhUStCSY2gBHF+hC3QgQRPBtBoOY9rmnWuyKMoIhC0/ygKIPMdQ8Ndw==", "username"=>"userrr", "password"=>"[FILTERED]", "commit"=>"log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "userrr"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 0.3ms | Allocations: 47344)
+
+
+  
+NoMethodError (undefined method `sign_in' for #<SessionController:0x00005561a20ff0b0>):
+  
+app/controllers/session_controller.rb:10:in `create'
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 02:43:55 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1085)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 8237)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-13 02:44:02 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"Juax2X0LWMti/urbXO0d+/jBCazToDCNj9HNf5+DQaKVpxcNOB2gicXdHIzOyCyGYDqf4hhKLNKqveO6zLrMxA==", "username"=>"userrr", "password"=>"[FILTERED]", "commit"=>"log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "userrr"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:5:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 214ms (ActiveRecord: 1.6ms | Allocations: 4980)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 02:44:02 +0300
+Processing by InputController#index as HTML
+  Rendering input/index.html.erb within layouts/application
+  Rendered input/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7346)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 02:46:53 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputController#index as HTML
+  Rendering input/index.html.erb within layouts/application
+  Rendered input/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7299)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 02:46:59 +0300
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 8276)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-13 02:47:07 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"nbM2kDh0OYQMTAIJ5yCB/GazZHpnhKDhS2EAbJO3S6su8pBEfWLBxqtv9F51BbCB/kjyNKxuvL5uDS6pwI7GzQ==", "username"=>"userrr", "password"=>"[FILTERED]", "commit"=>"log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "userrr"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:5:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 212ms (ActiveRecord: 0.9ms | Allocations: 5018)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 02:47:08 +0300
+Processing by InputController#index as HTML
+  Rendering input/index.html.erb within layouts/application
+  Rendered input/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 7187)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 02:49:41 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1085)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 8251)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-13 02:49:55 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"ypPtuKs5j0Vr1W5OwePE8JK33rb8n0Crxuez74ZhlaN50kts7i93B8z2mBlTxvWNCkxI+Dd1XPTji50q1VgYxQ==", "username"=>"userrr", "password"=>"[FILTERED]", "commit"=>"log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "userrr"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:5:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 235ms (ActiveRecord: 2.0ms | Allocations: 5157)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 02:49:55 +0300
+Processing by InputController#index as HTML
+  Rendering input/index.html.erb within layouts/application
+  Rendered input/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 7365)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 03:02:20 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputController#index as HTML
+  Rendering input/index.html.erb within layouts/application
+  Rendered input/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 7301)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1723)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 947)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:17 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:18 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:23 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:09:53 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 884)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:27 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:28 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:33 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:10:34 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:11:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:12:04 +0300
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 888)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 03:15:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1896)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:15:42 +0300
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 8203)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 03:15:48 +0300
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/helpers/session_helper.rb:21:in `current_user'
+Redirected to http://127.0.0.1:3000/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 978)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2020-12-13 03:15:48 +0300
+Processing by SessionController#login as HTML
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 8063)
+
+
