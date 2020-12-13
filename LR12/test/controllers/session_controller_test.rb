@@ -6,14 +6,15 @@ class SessionControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get create" do
-    get session_create_url
-    assert_response :success
-  end
-
+  # при выходе редиректит на страницу входу
   test "should get logout" do
-    get session_logout_url
-    assert_response :success
+    get '/logout'
+    assert_redirected_to session_login_url
   end
 
+  # не можем перейти на главную страницу без авторизации
+  test "can't calculate without login" do
+    get '/'
+    assert_redirected_to session_login_url
+  end
 end
