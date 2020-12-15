@@ -684,3 +684,67 @@ Completed 406 Not Acceptable in 9ms (ActiveRecord: 0.0ms | Allocations: 1755)
 Completed 406 Not Acceptable in 9ms (ActiveRecord: 0.0ms | Allocations: 1754)
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (21.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (16.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (34.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+---------------------------------------------------------------------
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/output" for 127.0.0.1 at 2020-12-15 04:53:07 +0300
+Started GET "/output?sequence=" for 127.0.0.1 at 2020-12-15 04:53:07 +0300
+Started GET "/output?sequence=111111" for 127.0.0.1 at 2020-12-15 04:53:07 +0300
+Started GET "/output?sequence=12323180" for 127.0.0.1 at 2020-12-15 04:53:07 +0300
+Processing by IoController#output as HTML
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"12323180"}
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"111111"}
+Completed 406 Not Acceptable in 21ms (ActiveRecord: 0.0ms | Allocations: 1778)
+Completed 406 Not Acceptable in 21ms (ActiveRecord: 0.0ms | Allocations: 1770)
+Completed 406 Not Acceptable in 22ms (ActiveRecord: 0.0ms | Allocations: 1754)
+Completed 406 Not Acceptable in 22ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/output?sequence=qwerty" for 127.0.0.1 at 2020-12-15 04:53:07 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 342)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m

@@ -21,15 +21,6 @@ class SessionFlowsTest < ActionDispatch::IntegrationTest
     assert_redirected_to root_url
   end
 
-  # test 'user will see the root after signing up' do
-  #   username = "hello"
-  #   password = "1111"
-  #
-  #   post users_url, params: { user: { username: username, password: password, password_confirmation: password } }
-  #
-  #   assert_redirected_to user_url(User.last)
-  # end
-
   test 'user can logout' do
     password = "1111"
 
