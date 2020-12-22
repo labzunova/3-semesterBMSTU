@@ -1,0 +1,17 @@
+Metrics/MethodLength:
+  Max: 35
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/LineLength:
+  Max: 100
+
+Style/SymbolArray:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.3

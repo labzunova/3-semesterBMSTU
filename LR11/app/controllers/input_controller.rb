@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# input
+# Input controller
 class InputController < ApplicationController
   def index; end
 end

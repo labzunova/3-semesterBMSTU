@@ -8629,3 +8629,491 @@ Processing by OutputController#output as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 29ms (Views: 14.2ms | ActiveRecord: 2.1ms | Allocations: 5340)
   [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (88.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (159.4ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-15 05:59:35.575036', '2020-12-15 05:59:35.575036');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-15 05:59:35.575036', '2020-12-15 05:59:35.575036')[0m
+  [1m[36mTruncate Tables (178.9ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[36mTruncate Tables (269.6ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[36mTruncate Tables (270.8ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-15 05:59:35.665708', '2020-12-15 05:59:35.665708');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-15 05:59:35.665708', '2020-12-15 05:59:35.665708')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-15 05:59:35.665708', '2020-12-15 05:59:35.665708');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-15 05:59:35.665708', '2020-12-15 05:59:35.665708')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-15 05:59:35.665987', '2020-12-15 05:59:35.665987');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-15 05:59:35.665987', '2020-12-15 05:59:35.665987')[0m
+  [1m[35m (206.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (162.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (161.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (162.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+OutputControllerTest: test_should_put_result_in_db
+--------------------------------------------------
+-------------------------------------------------------
+OutputControllerTest: test_test_different_response_json
+--------------------------------------------------
+-------------------------------------------------------
+OutputControllerTest: test_test_different_response
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "outputs"[0m
+Started GET "/output?sequence=1245" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+Processing by OutputController#output as HTML
+  Parameters: {"sequence"=>"1245"}
+Started GET "/output?sequence=1245" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+Started GET "/output?sequence=1245&format=json" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+Started GET "/output" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+Processing by OutputController#output as HTML
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"1245"}
+  Parameters: {"sequence"=>"1245"}
+Processing by OutputController#output as HTML
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Load (0.2ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-15 05:59:35.881661"], ["updated_at", "2020-12-15 05:59:35.881661"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Load (0.2ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  Rendered output/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 448)
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-15 05:59:35.888845"], ["updated_at", "2020-12-15 05:59:35.888845"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendered output/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 441)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 5183)
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+Started GET "/output?sequence=245678&format=json" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"245678"}
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-15 05:59:35.893561"], ["updated_at", "2020-12-15 05:59:35.893561"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "245678"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "245678"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "245678"], ["result", "[\"245678\"]"], ["max", "\"maximum length rising subsequence: 245678\""], ["created_at", "2020-12-15 05:59:35.896345"], ["updated_at", "2020-12-15 05:59:35.896345"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "245678"], ["id", 980190964], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 1450)
+  Rendering output/output.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered output/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 448)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_test_return_json
+-------------------------------------------
+Started GET "/output?sequence=1245&format=json" for 127.0.0.1 at 2020-12-15 08:59:35 +0300
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"1245"}
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-15 05:59:35.904592"], ["updated_at", "2020-12-15 05:59:35.904592"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 1442)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+OutputTest: test_test_save_db
+-----------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1111"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1111"], ["result", "1111"], ["max", "1111"], ["created_at", "2020-12-15 05:59:35.909945"], ["updated_at", "2020-12-15 05:59:35.909945"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1111"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOutput Destroy (0.1ms)[0m  [1m[31mDELETE FROM "outputs" WHERE "outputs"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+OutputTest: test_check_adding_not_unique_value
+----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "123"], ["result", "123"], ["max", "123"], ["created_at", "2020-12-15 05:59:35.913983"], ["updated_at", "2020-12-15 05:59:35.913983"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "123"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------
+OutputTest: test_test_positive_value
+------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "-1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "-1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 162ms (Views: 142.0ms | ActiveRecord: 0.7ms | Allocations: 31133)
+Completed 200 OK in 171ms (Views: 153.8ms | ActiveRecord: 0.6ms | Allocations: 31119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 162ms (Views: 154.6ms | ActiveRecord: 0.0ms | Allocations: 26354)
+Started GET "/output?sequence=8567" for 127.0.0.1 at 2020-12-15 08:59:36 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "outputs"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Processing by OutputController#output as HTML
+  Parameters: {"sequence"=>"8567"}
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "8567"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "8567"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "8567"], ["result", "[\"567\"]"], ["max", "\"maximum length rising subsequence: 567\""], ["created_at", "2020-12-15 05:59:36.044736"], ["updated_at", "2020-12-15 05:59:36.044736"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "8567"], ["id", 980190964], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  Rendered output/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 5348)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (117.0ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTruncate Tables (149.9ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTruncate Tables (170.7ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (171.7ms)[0m  [1m[31mDELETE FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-22 20:35:56.497628', '2020-12-22 20:35:56.497628');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-22 20:35:56.497628', '2020-12-22 20:35:56.497628')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-22 20:35:56.498821', '2020-12-22 20:35:56.498821');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-22 20:35:56.498821', '2020-12-22 20:35:56.498821')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-22 20:35:56.501658', '2020-12-22 20:35:56.501658');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-22 20:35:56.501658', '2020-12-22 20:35:56.501658')[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "outputs";
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (980190962, '2020-12-22 20:35:56.512193', '2020-12-22 20:35:56.512193');
+INSERT INTO "outputs" ("id", "created_at", "updated_at") VALUES (298486374, '2020-12-22 20:35:56.512193', '2020-12-22 20:35:56.512193')[0m
+  [1m[35m (127.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------
+OutputTest: test_test_positive_value
+------------------------------------
+  [1m[35m (151.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (154.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+OutputTest: test_test_save_db
+----------------------------------------------
+-----------------------------
+OutputTest: test_check_adding_not_unique_value
+----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1111"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "123"], ["result", "123"], ["max", "123"], ["created_at", "2020-12-22 20:35:56.663449"], ["updated_at", "2020-12-22 20:35:56.663449"]]
+  [1m[36mOutput Create (0.3ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1111"], ["result", "1111"], ["max", "1111"], ["created_at", "2020-12-22 20:35:56.663458"], ["updated_at", "2020-12-22 20:35:56.663458"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "123"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1111"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOutput Destroy (0.1ms)[0m  [1m[31mDELETE FROM "outputs" WHERE "outputs"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+OutputControllerTest: test_test_different_response_json
+-------------------------------------------------------
+  [1m[35m (180.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "123"], ["LIMIT", 1]]
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "-1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "-1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_test_return_json
+-------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+OutputControllerTest: test_test_different_response
+--------------------------------------------------
+Started GET "/output" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+Started GET "/output?sequence=1245" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+Started GET "/output?sequence=1245&format=json" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+Started GET "/output?sequence=1245&format=json" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+Processing by OutputController#output as HTML
+Processing by OutputController#output as HTML
+  Parameters: {"sequence"=>"1245"}
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"1245"}
+  [1m[36mOutput Load (0.2ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"1245"}
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-22 20:35:56.787844"], ["updated_at", "2020-12-22 20:35:56.787844"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mOutput Load (0.2ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  Rendering output/output.html.erb within layouts/application
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-22 20:35:56.791696"], ["updated_at", "2020-12-22 20:35:56.791696"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendered output/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 441)
+  [1m[36mOutput Load (0.2ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 1780)
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  Rendered output/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 448)
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-22 20:35:56.794717"], ["updated_at", "2020-12-22 20:35:56.794717"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/output?sequence=245678&format=json" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.9ms | Allocations: 1780)
+Processing by OutputController#output as JSON
+  Parameters: {"sequence"=>"245678"}
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "245678"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "245678"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "245678"], ["result", "[\"245678\"]"], ["max", "\"maximum length rising subsequence: 245678\""], ["created_at", "2020-12-22 20:35:56.799850"], ["updated_at", "2020-12-22 20:35:56.799850"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "245678"], ["id", 980190964], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.6ms | Allocations: 1448)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+OutputControllerTest: test_should_put_result_in_db
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "outputs"[0m
+Started GET "/output?sequence=1245" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Processing by OutputController#output as HTML
+  Parameters: {"sequence"=>"1245"}
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "1245"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.2ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "1245"], ["result", "[\"1245\"]"], ["max", "\"maximum length rising subsequence: 1245\""], ["created_at", "2020-12-22 20:35:56.808367"], ["updated_at", "2020-12-22 20:35:56.808367"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "1245"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  Rendered output/output.html.erb within layouts/application (Duration: 1.4ms | Allocations: 448)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 84.4ms | ActiveRecord: 0.8ms | Allocations: 27690)
+Completed 200 OK in 116ms (Views: 108.4ms | ActiveRecord: 0.0ms | Allocations: 26629)
+Completed 200 OK in 115ms (Views: 105.1ms | ActiveRecord: 0.7ms | Allocations: 28087)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "outputs"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/output?sequence=8567" for 127.0.0.1 at 2020-12-22 23:35:56 +0300
+Processing by OutputController#output as HTML
+  Parameters: {"sequence"=>"8567"}
+  [1m[36mOutput Load (0.1ms)[0m  [1m[34mSELECT "outputs".* FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "8567"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? LIMIT ?[0m  [["input", "8567"], ["LIMIT", 1]]
+  [1m[36mOutput Create (0.1ms)[0m  [1m[32mINSERT INTO "outputs" ("input", "result", "max", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["input", "8567"], ["result", "[\"567\"]"], ["max", "\"maximum length rising subsequence: 567\""], ["created_at", "2020-12-22 20:35:56.901993"], ["updated_at", "2020-12-22 20:35:56.901993"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOutput Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "outputs" WHERE "outputs"."input" = ? AND "outputs"."id" != ? LIMIT ?[0m  [["input", "8567"], ["id", 980190964], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering output/output.html.erb within layouts/application
+  Rendered output/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.6ms | Allocations: 5346)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m

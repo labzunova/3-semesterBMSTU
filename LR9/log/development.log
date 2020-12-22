@@ -3051,3 +3051,141 @@ Processing by IoController#output as JSON
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 604)
 
 
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:45:29 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 9.5ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 96ms (Views: 90.9ms | ActiveRecord: 0.0ms | Allocations: 12572)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:45:33 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 607)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:45:58 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 6687)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:46:03 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 593)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:48:04 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 6676)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:48:05 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 589)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:48:13 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 6686)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:48:20 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 578)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:48:27 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6678)
+
+
+Started GET "/output.json?sequence=&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:48:29 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 537)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:48:34 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 6680)
+
+
+Started GET "/output.json?sequence=sdffsdfsf&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:48:44 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"sdffsdfsf", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 540)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-15 08:49:29 +0300
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 6683)
+
+
+Started GET "/output.json?sequence=&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:49:31 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 544)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-15 08:49:33 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 588)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-22 21:03:48 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IoController#input as HTML
+  Rendering io/input.html.erb within layouts/application
+  Rendered io/input.html.erb within layouts/application (Duration: 15.2ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 84ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 12307)
+
+
+Started GET "/output.json?sequence=&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-22 21:03:51 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started GET "/output.json?sequence=sdffsdfsf&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-22 21:03:59 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"sdffsdfsf", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 359)
+
+
+Started GET "/output.json?sequence=123451209346&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-22 21:04:07 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"123451209346", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 431)
+
+
+Started GET "/output.json?sequence=111111&commit=%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%83%D1%8E%20%D0%BC%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" for 127.0.0.1 at 2020-12-22 21:05:20 +0300
+Processing by IoController#output as JSON
+  Parameters: {"sequence"=>"111111", "commit"=>"Определить наиболее длинную монотонно возрастающую последовательность"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 383)
+
+

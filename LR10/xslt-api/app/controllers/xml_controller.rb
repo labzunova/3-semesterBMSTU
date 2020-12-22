@@ -1,29 +1,37 @@
+# frozen_string_literal: true
+
+# Output controller
+# :reek:TooManyStatements
+# :reek:InstanceVariableAssumption
 class XmlController < ApplicationController
   before_action :parse_params, only: :index
 
+
   def index
-      #sequence = params[:sequence]
-      result =''
-      if @sequence == ''
-        result = 'you did not write anything:('
-      elsif @sequence.to_i.zero?
-        result = 'please, enter a number'
+    result = ''
+    sequence = @sequence
+    if sequence == ''
+      result = 'you did not write anything:('
+    elsif sequence.to_i.zero?
+      result = 'please, enter a number'
+    else
+      res = find(sequence)
+      rising_subsequences = res[0]
+      if rising_subsequences.length.zero?
+        result = 'There are no rising subsequences'
       else
-        res = find(@sequence)
-        if res[0].length.zero?
-          result = 'There are no rising subsequences'
-        else
-          max = res[1]
-          result = res[0].map { |elem| { subsequence: elem.to_s } }
-                      .append({ max: max.to_s })
+        max = res[1]
+        result = rising_subsequences.map { |elem| { subsequence: elem.to_s } }
+                       .append(max: max.to_s)
 
-        end
       end
+    end
 
-      respond_to do |format|
-        format.xml { render xml: result.to_xml }
-        format.rss { render xml: result.to_xml }
-      end
+    respond_to do |format|
+      res = render xml: result.to_xml
+      format.xml { res }
+      format.rss { res }
+    end
   end
 
   protected
@@ -32,6 +40,8 @@ class XmlController < ApplicationController
     @sequence = params[:sequence]
   end
 
+  # :reek:UncommunicativeVariableName
+  # :reek:UtilityFunction
   def find(sequence)
     rising_subsequences = []
     subsequence = sequence[0]
@@ -39,9 +49,10 @@ class XmlController < ApplicationController
     count = 1
     n = 0
     (1..sequence.length).each do |i|
-      if sequence[i].to_i > sequence[i - 1].to_i
+      seq_i = sequence[i]
+      if seq_i.to_i > sequence[i - 1].to_i
         count += 1
-        subsequence += sequence[i]
+        subsequence += seq_i
       else
         if count > 1
           rising_subsequences[n] = subsequence
@@ -49,7 +60,7 @@ class XmlController < ApplicationController
           n += 1
         end
         count = 1
-        subsequence = sequence[i]
+        subsequence = seq_i
       end
     end
     [rising_subsequences, max]

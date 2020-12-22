@@ -1,0 +1,11 @@
+Metrics/MethodLength:
+  Max: 35
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/PerceivedComplexity:
+  Max: 10

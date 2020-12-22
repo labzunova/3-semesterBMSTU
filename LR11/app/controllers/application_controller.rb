@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-# application
+# Application controller
 class ApplicationController < ActionController::Base
 end

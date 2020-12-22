@@ -12118,3 +12118,369 @@ Completed 302 Found in 4ms (ActiveRecord: 0.2ms | Allocations: 736)
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.0ms | Allocations: 38474)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (12.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (9.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (13.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (13.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (89.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (92.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (87.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (142.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mTruncate Tables (141.8ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mTruncate Tables (219.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mTruncate Tables (142.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191303', '2020-12-15 06:01:23.191303');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191303', '2020-12-15 06:01:23.191303')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191349', '2020-12-15 06:01:23.191349');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191349', '2020-12-15 06:01:23.191349')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191381', '2020-12-15 06:01:23.191381');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191381', '2020-12-15 06:01:23.191381')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191381', '2020-12-15 06:01:23.191381');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-15 06:01:23.191381', '2020-12-15 06:01:23.191381')[0m
+  [1m[35m (210.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+SessionControllerTest: test_should_get_login
+--------------------------------------------
+  [1m[35m (278.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (278.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (278.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------------------------
+SessionFlowsTest: test_user_with_incorrect_credentials_will_be_redirected_to_login_page
+---------------------------------------------------------------------------------------
+---------------------------------------------
+SessionControllerTest: test_should_get_logout
+---------------------------------------------------------
+---------------------------------------------
+SessionControllerTest: test_can't_calculate_without_login
+---------------------------------------------------------
+Started GET "/session/login" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Started GET "/" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Started GET "/logout" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by SessionController#logout as HTML
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 609)
+Started POST "/session/create" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 630)
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.2ms | Allocations: 601)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------
+SessionFlowsTest: test_unauthorized_user_will_be_redirected_to_login_page
+-------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------
+--------------------------------------
+SessionFlowsTest: test_user_with_correct_credentials_will_see_the_root
+SessionFlowsTest: test_user_can_logout
+----------------------------------------------------------------------
+--------------------------------------
+Started GET "/" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 417)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hello"], ["password_digest", "$2a$04$AuRFbDAYv6MSwm5xgCRnTeauIDvhaMMZvhNNXzCrJ331TYat2ZHye"], ["created_at", "2020-12-15 06:01:24.132965"], ["updated_at", "2020-12-15 06:01:24.132965"]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hello"], ["password_digest", "$2a$04$qUJlI5LKM5J0J8UJyaOmK.5UCkkURDszxkvNNglDffNLFjxXBoSNe"], ["created_at", "2020-12-15 06:01:24.132971"], ["updated_at", "2020-12-15 06:01:24.132971"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/session/create" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+Started POST "/session/create" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"login"=>"hello", "password"=>"[FILTERED]"}
+Redirected to http://www.example.com/
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms | Allocations: 546)
+Redirected to http://www.example.com/session/login
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 453)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/session/logout" for 127.0.0.1 at 2020-12-15 09:01:24 +0300
+Processing by SessionController#logout as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 366)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 33.6ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 561ms (Views: 480.1ms | ActiveRecord: 0.0ms | Allocations: 38569)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (9.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (226.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mTruncate Tables (228.9ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mTruncate Tables (228.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTruncate Tables (258.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012518', '2020-12-22 21:00:00.012518');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012518', '2020-12-22 21:00:00.012518')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012558', '2020-12-22 21:00:00.012558');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012558', '2020-12-22 21:00:00.012558')[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012592', '2020-12-22 21:00:00.012592');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012592', '2020-12-22 21:00:00.012592')[0m
+  [1m[36mFixtures Load (0.1ms)[0m  [1m[31mDELETE FROM "users";
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012592', '2020-12-22 21:00:00.012592');
+INSERT INTO "users" ("id", "username", "password_digest", "last_login_at", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2020-12-13 01:17:16', '2020-12-22 21:00:00.012592', '2020-12-22 21:00:00.012592')[0m
+  [1m[35m (110.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (111.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------
+--------------------------------------------
+SessionFlowsTest: test_unauthorized_user_will_be_redirected_to_login_page
+-------------------------------------------------------------------------
+SessionControllerTest: test_should_get_login
+--------------------------------------------
+  [1m[35m (159.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (159.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------
+---------------------------------------------
+SessionControllerTest: test_can't_calculate_without_login
+SessionControllerTest: test_should_get_logout
+---------------------------------------------------------
+---------------------------------------------
+Started GET "/logout" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Started GET "/" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Started GET "/" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Started GET "/session/login" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Processing by SessionController#logout as HTML
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 609)
+Processing by InputController#index as HTML
+Processing by InputController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms | Allocations: 601)
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms | Allocations: 601)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------
+SessionFlowsTest: test_user_with_correct_credentials_will_see_the_root
+----------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------------------------
+SessionFlowsTest: test_user_with_incorrect_credentials_will_be_redirected_to_login_page
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------------------------
+--------------------------------------
+SessionFlowsTest: test_user_can_logout
+--------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hello"], ["password_digest", "$2a$04$xLNOf5CKflgCr6YYrNcUCeuFAVSHeBqLsgi4mo6e7JZGIJJyebG82"], ["created_at", "2020-12-22 21:00:00.677057"], ["updated_at", "2020-12-22 21:00:00.677057"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "hello"], ["password_digest", "$2a$04$ncUk6jEBcJywobMi17pAoOTP/3De7jg3VH1TuscpSMyZkZnhIElc6"], ["created_at", "2020-12-22 21:00:00.677646"], ["updated_at", "2020-12-22 21:00:00.677646"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering session/login.html.erb within layouts/application
+Started POST "/session/create" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Started POST "/session/create" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Started POST "/session/create" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+Processing by SessionController#create as HTML
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+Processing by SessionController#create as HTML
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+Processing by SessionController#create as HTML
+  Parameters: {"login"=>"hello", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hello"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://www.example.com/session/login
+Redirected to http://www.example.com/session/login
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 453)
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 481)
+Started GET "/session/logout" for 127.0.0.1 at 2020-12-23 00:00:00 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 677)
+Processing by SessionController#logout as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 366)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered session/login.html.erb within layouts/application (Duration: 27.9ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 236ms (Views: 180.1ms | ActiveRecord: 0.0ms | Allocations: 38624)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m

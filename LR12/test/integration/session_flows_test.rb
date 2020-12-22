@@ -13,23 +13,16 @@ class SessionFlowsTest < ActionDispatch::IntegrationTest
 
   test 'user with correct credentials will see the root' do
     password = "1111"
-
     user = User.create(username: "hello", password: password, password_confirmation: password)
-
     post session_create_url, params: { username: user.username, password: password }
-
     assert_redirected_to root_url
   end
 
   test 'user can logout' do
     password = "1111"
-
     user = User.create(username: "hello", password: password, password_confirmation: password)
-
     post session_create_url, params: { login: user.username, password: password }
-
     get session_logout_url
-
     assert_redirected_to controller: :session, action: :login
   end
 end

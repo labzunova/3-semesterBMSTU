@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# output
+# Output controller
 # :reek:UtilityFunction
 # :reek:TooManyStatements
 # :reek:UncommunicativeVariableName
@@ -51,5 +51,13 @@ class OutputController < ApplicationController
       end
     end
     [rising_subsequences, max]
+  end
+
+  def users
+    respond_to do |format|
+      res = User.all
+      format.xml {render xml: res}
+      format.json {render json: res}
+    end
   end
 end

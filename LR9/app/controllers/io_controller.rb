@@ -8,7 +8,7 @@
 # :reek:FeatureEnvy
 # :reek:InstanceVariableAssumption
 class IoController < ApplicationController
-  def output
+  def result
     sequence = params[:sequence]
     @result = 'hello'
 

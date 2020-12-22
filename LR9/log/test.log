@@ -748,3 +748,2184 @@ Processing by IoController#output as HTML
   Parameters: {"sequence"=>"qwerty"}
 Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 342)
   [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_get_output
+OutputControllerTest: test_should_get_an_error_for_NaN
+-------------------------------------
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/output" for 127.0.0.1 at 2020-12-22 21:06:33 +0300
+Started GET "/output?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:06:33 +0300
+Started GET "/output?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:06:33 +0300
+Started GET "/output?sequence=" for 127.0.0.1 at 2020-12-22 21:06:33 +0300
+Processing by IoController#output as HTML
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"12323180"}
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>""}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1778)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/output?sequence=111111" for 127.0.0.1 at 2020-12-22 21:06:33 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"111111"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 358)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/output?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:06:53 +0300
+Started GET "/output" for 127.0.0.1 at 2020-12-22 21:06:53 +0300
+Started GET "/output?sequence=" for 127.0.0.1 at 2020-12-22 21:06:53 +0300
+Processing by IoController#output as HTML
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>""}
+Started GET "/output?sequence=111111" for 127.0.0.1 at 2020-12-22 21:06:53 +0300
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"111111"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+Started GET "/output?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:06:53 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"12323180"}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1770)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 366)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:11:36 +0300
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:11:36 +0300
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:11:36 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:11:36 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:11:36 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:12:04 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:12:04 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:12:04 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+----------------------------------------------------------------
+OutputControllerTest: test_get_output
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+-------------------------------------
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:13:26 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:13:26 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"111111"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1770)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:13:26 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>""}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:13:59 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:13:59 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:13:59 +0300
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#output as HTML
+Processing by IoController#output as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Parameters: {"sequence"=>"111111"}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1754)
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1770)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+OutputControllerTest: test_should_get_input_view
+--------------------------------------------------------------
+------------------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:14:41 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:14:41 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:14:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+OutputControllerTest: test_get_output
+------------------------------------------------------
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:14:50 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:14:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:14:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+---------------------------------------------------------------------
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:15:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:15:27 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:15:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:16:04 +0300
+Started GET "/output" for 127.0.0.1 at 2020-12-22 21:16:04 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:16:04 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+Processing by IoController#output as HTML
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:16:04 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/output" for 127.0.0.1 at 2020-12-22 21:16:42 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:16:42 +0300
+Processing by IoController#output as HTML
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:16:42 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:16:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:17:30 +0300
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:17:30 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:17:30 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+-------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+OutputControllerTest: test_get_output
+OutputControllerTest: test_should_get_an_error_for_NaN
+--------------------------------------------------------------
+-------------------------------------
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:17:43 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:17:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:17:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------------
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:18:06 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:18:06 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:18:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+OutputControllerTest: test_get_output
+---------------------------------------------------------------------
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:19:06 +0300
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:19:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:19:06 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:19:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/output" for 127.0.0.1 at 2020-12-22 21:19:28 +0300
+Processing by IoController#output as HTML
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 1755)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:19:28 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:19:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:20:13 +0300
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:20:13 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:20:13 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+---------------------------------------------------------------------
+OutputControllerTest: test_get_output
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+-------------------------------------
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:20:45 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:20:45 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:20:45 +0300
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:28:17 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:28:17 +0300
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:28:17 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 1.5ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 10.0ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 8.3ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+Completed 500 Internal Server Error in 5246ms (ActiveRecord: 0.0ms | Allocations: 25872)
+Completed 500 Internal Server Error in 5242ms (ActiveRecord: 0.0ms | Allocations: 25808)
+Completed 500 Internal Server Error in 5250ms (ActiveRecord: 0.0ms | Allocations: 25882)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+OutputControllerTest: test_get_output
+--------------------------------------------------------------
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:29:27 +0300
+Processing by IoController#result as HTML
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/labzunova/Рабочий стол/labs BMSTU/LR9/public/packs-test
+[Webpacker] Hash: 8a20115cf26aca7795e5
+Version: webpack 4.44.2
+Time: 1332ms
+Built at: 22.12.2020 21:29:29
+                                       Asset       Size         Chunks                         Chunk Names
+      js/application-b9d826ac4999b800f367.js    127 KiB    application  [emitted] [immutable]  application
+  js/application-b9d826ac4999b800f367.js.map    140 KiB    application  [emitted] [dev]        application
+    js/io_controller-1347442b7c78530b0cde.js   6.43 KiB  io_controller  [emitted] [immutable]  io_controller
+js/io_controller-1347442b7c78530b0cde.js.map   4.85 KiB  io_controller  [emitted] [dev]        io_controller
+                               manifest.json  757 bytes                 [emitted]              
+Entrypoint application = js/application-b9d826ac4999b800f367.js js/application-b9d826ac4999b800f367.js.map
+Entrypoint io_controller = js/io_controller-1347442b7c78530b0cde.js js/io_controller-1347442b7c78530b0cde.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 778 bytes {application} [built]
+[./app/javascript/packs/io_controller.js] 2.52 KiB {io_controller} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2907ms (Views: 2903.8ms | ActiveRecord: 0.0ms | Allocations: 21295)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:29:48 +0300
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:29:48 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:29:48 +0300
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:29:48 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 20597)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 20603)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:29:48 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 4124)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 20653)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 20673)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:30:02 +0300
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:30:02 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:30:02 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:30:02 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Parameters: {"sequence"=>""}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 20762)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 20758)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 20838)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 20838)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:30:23 +0300
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 21:30:23 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Parameters: {"sequence"=>"12323180"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:30:23 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:30:23 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 20918)
+Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 20918)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.8ms | Allocations: 221)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering io/result.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  Rendered io/result.html.erb within layouts/application (Duration: 0.8ms | Allocations: 221)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+OutputControllerTest: test_should_get_input_view
+------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:30:23 +0300
+Processing by IoController#result as HTML
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4123)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 21003)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 21003)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:30:43 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:30:43 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:30:43 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:30:43 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 21087)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 21093)
+Completed 200 OK in 26ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 21078)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 21198)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 21:31:13 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 21:31:13 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 21:31:13 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 21:31:13 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 21243)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 21247)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.0ms | Allocations: 21238)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 21243)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:10:57 +0300
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:10:57 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:10:57 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:10:57 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 13.7ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 13.7ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 13.7ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 13.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 178ms (Views: 170.6ms | ActiveRecord: 0.0ms | Allocations: 21731)
+Completed 200 OK in 178ms (Views: 170.5ms | ActiveRecord: 0.0ms | Allocations: 21730)
+Completed 200 OK in 179ms (Views: 174.8ms | ActiveRecord: 0.0ms | Allocations: 21725)
+Completed 200 OK in 178ms (Views: 170.6ms | ActiveRecord: 0.0ms | Allocations: 21751)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:11:58 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:11:58 +0300
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:11:58 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+Processing by IoController#result as HTML
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:11:58 +0300
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 21914)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 21895)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:11:58 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4158)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 21921)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 21996)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:15:41 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:15:41 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:15:41 +0300
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:15:41 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Processing by IoController#result as HTML
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 22066)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:15:41 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 4180)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 22095)
+Completed 200 OK in 39ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 22090)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 22111)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:15:59 +0300
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:15:59 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:15:59 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:15:59 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 22205)
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 22206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:15:59 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 4158)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 22301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 22324)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:17:44 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:17:45 +0300
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:17:45 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:17:45 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendering io/result.html.erb within layouts/application
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 22389)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendering io/result.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:17:45 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4158)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 22415)
+Completed 200 OK in 38ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 22411)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 22426)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:18:01 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:18:01 +0300
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:18:01 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:18:01 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 22525)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:18:02 +0300
+Processing by IoController#result as HTML
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.8ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 4159)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 22599)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 22565)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 22601)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+-------------------------------------
+OutputControllerTest: test_should_get_an_error_for_NaN
+OutputControllerTest: test_get_output
+------------------------------------------------------
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+OutputControllerTest: test_should_get_123_for_test_with_12323180
+----------------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:18:31 +0300
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:18:31 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+Processing by IoController#result as HTML
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:18:31 +0300
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+Started GET "/result?sequence=12323180" for 127.0.0.1 at 2020-12-22 22:18:31 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"12323180"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 22685)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+--------------------------------------------------------------
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:18:31 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 22696)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 4158)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 22789)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 22781)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+------------------------------------------------------
+OutputControllerTest: test_should_get_an_error_for_empty_input
+OutputControllerTest: test_should_get_an_error_for_NaN
+--------------------------------------------------------------
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+OutputControllerTest: test_get_output
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+OutputControllerTest: test_should_get_'no_rising'_for_test_with_11111
+---------------------------------------------------------------------
+Started GET "/result?sequence=qwerty" for 127.0.0.1 at 2020-12-22 22:18:46 +0300
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"qwerty"}
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+Started GET "/result" for 127.0.0.1 at 2020-12-22 22:18:46 +0300
+Started GET "/result?sequence=" for 127.0.0.1 at 2020-12-22 22:18:46 +0300
+Started GET "/result?sequence=111111" for 127.0.0.1 at 2020-12-22 22:18:46 +0300
+Processing by IoController#result as HTML
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>""}
+Processing by IoController#result as HTML
+  Parameters: {"sequence"=>"111111"}
+  Rendering io/result.html.erb within layouts/application
+  Rendering io/result.html.erb within layouts/application
+  Rendered io/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 218)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendering io/result.html.erb within layouts/application
+Completed 200 OK in 30ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 22845)
+  Rendered io/result.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 22891)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 22895)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 39ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 22906)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
